@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "valorant-font";
+  src: url("./../../../assets/home/fonts/valorant-font.ttf");
+}
+
+.container {
+  background-image: url("../../../assets/Images/Home/background.png");
+  background-size: cover;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.nav-menu,
+.info,
+.social-tab {
+  height: 100vh;
+  width: 360px;
+}
+
+.btn {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: valorant-font;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all ease 2;
+  color: rgb(255, 236, 125);
+}
+
+.btn-icon {
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+  margin-right: 20px;
+}

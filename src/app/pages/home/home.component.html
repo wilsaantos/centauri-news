@@ -1,0 +1,21 @@
+<div class="general-body container">
+  <div fxLayout="row">
+    <div
+      fxLayout="column"
+      class="nav-menu"
+      fxLayoutAlign="center center"
+      fxLayoutGap="30px"
+    >
+      <span class="btn" *ngFor="let item of items" (click)="navigate(item)"
+        ><img
+          src="./../../../assets/home/images/losango.png"
+          class="btn-icon"
+        />{{ item.title }}</span
+      >
+    </div>
+
+    <!-- <div fxLayout="column" class="info"></div>
+
+    <div fxLayout="column" class="social-tab"></div> -->
+  </div>
+</div>
