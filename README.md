@@ -1,6 +1,4 @@
-# CentauriNews
-Personal Project in Angular using Space Flight News API to improve skills.
-# CentauriNews
+# Valoras
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
